@@ -6,6 +6,6 @@ def initialize(name)
 end
 
 def artist_name
-  self.Artist.name
+  self.artist.name
 end
 end
