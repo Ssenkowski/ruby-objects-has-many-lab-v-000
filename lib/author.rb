@@ -1,5 +1,5 @@
 class Author
-  attr_accessor :posts, :name
+  attr_accessor :name
 
   @@post_count = 0
 
