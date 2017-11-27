@@ -3,9 +3,14 @@ class Author
 
   @@post_count = 0
 
+  def initialize(post)
+    @post = post
+    @posts = []
+  end
 
   def add_post(post)
-    
+    @song = post
+
     @@post_count += 1
   end
 
