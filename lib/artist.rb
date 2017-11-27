@@ -3,6 +3,10 @@ class Artist
 
   @@song_count = 0
 
+  def initialize(song)
+    @song = song
+    @songs = []
+  end
 
   def add_song(song)
     @song << song
