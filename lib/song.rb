@@ -5,7 +5,7 @@ def initialize(name)
   @name = name
 end
 
-def artist_name
-  Artist.name
+def artist_name(artist)
+  artist
 end
 end
