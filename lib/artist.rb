@@ -4,17 +4,17 @@ class Artist
   @@song_count = 0
 
 
-  def add_post(post)
+  def add_song(song)
 
     @@song_count += 1
   end
 
-  def add_post_by_title(post_title)
+  def add_song_by_name(song_title)
 
     @@song_count += 1
   end
 
-  def post_count
+  def song_count
     @@song_count
   end
 end
