@@ -7,7 +7,7 @@ def initialize(title)
 end
 
 def author_name
-  author = Author.name
+  author = Author.name(post_title)
   author
 end
 end
