@@ -6,7 +6,7 @@ def initialize(title)
   @post = []
 end
 
-def author_name
+def self.author_name
   Author.name
 end
 end
